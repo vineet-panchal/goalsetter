@@ -1,0 +1,24 @@
+{
+  "name": "task1-advanced",
+  "version": "1.0.0",
+  "description": "GoalSetter application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Vineet Panchal",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "colors": "^1.4.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
