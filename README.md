@@ -41,42 +41,42 @@ A full-stack MERN application for setting, tracking, and managing personal goals
 goalsetter/ <br />
 |── backend/ <br />
 │ &nbsp; |── config/ <br />
-│ &nbsp; │ &nbsp;└── db.js &nbsp;&nbsp; # Database connection <br />
+│ &nbsp; │ &nbsp;└── db.js &nbsp; # Database connection <br />
 │ &nbsp; |── controllers/ <br />
-│ &nbsp; │ &nbsp; |── goalController.js &nbsp;&nbsp; # Goal CRUD operations <br />
-│ &nbsp; │ &nbsp;└── userController.js &nbsp;&nbsp; # User authentication <br />
+│ &nbsp; │ &nbsp; |── goalController.js &nbsp; # Goal CRUD operations <br />
+│ &nbsp; │ &nbsp;└── userController.js &nbsp; # User authentication <br />
 │ &nbsp; |── middleware/ <br />
-│ &nbsp; │ &nbsp; |── authMiddleware.js &nbsp;&nbsp; # JWT protection <br />
-│ &nbsp; │ &nbsp;└── errorMiddleware.js &nbsp;&nbsp; # Error handling <br />
+│ &nbsp; │ &nbsp; |── authMiddleware.js &nbsp; # JWT protection <br />
+│ &nbsp; │ &nbsp;└── errorMiddleware.js &nbsp; # Error handling <br />
 │ &nbsp; |── models/ <br />
-│ &nbsp; │ &nbsp; |── goalModel.js &nbsp;&nbsp; # Goal schema <br />
-│ &nbsp; │ &nbsp;└── userModel.js &nbsp;&nbsp; # User schema <br />
+│ &nbsp; │ &nbsp; |── goalModel.js &nbsp; # Goal schema <br />
+│ &nbsp; │ &nbsp;└── userModel.js &nbsp; # User schema <br />
 │ &nbsp; |── routes/ <br />
-│ &nbsp; │ &nbsp; |── GoalRoutes.js &nbsp;&nbsp; # Goal API routes <br />
-│ &nbsp; │ &nbsp;└── UserRoutes.js &nbsp;&nbsp; # User API routes <br />
-│ &nbsp;└── server.js &nbsp;&nbsp; # Express server setup <br />
+│ &nbsp; │ &nbsp; |── GoalRoutes.js &nbsp; # Goal API routes <br />
+│ &nbsp; │ &nbsp;└── UserRoutes.js &nbsp; # User API routes <br />
+│ &nbsp;└── server.js &nbsp; # Express server setup <br />
 |── frontend/ <br />
 │ &nbsp; |── public/ <br />
-│ &nbsp; │ &nbsp;└── index.html &nbsp;&nbsp; # HTML template <br />
+│ &nbsp; │ &nbsp;└── index.html &nbsp; # HTML template <br />
 │ &nbsp; |── src/ <br />
 │ &nbsp; │ &nbsp; |── components/ <br />
-│ &nbsp; │ &nbsp; │ &nbsp; |── GoalForm.js &nbsp;&nbsp; # Goal creation form <br />
-│ &nbsp; │ &nbsp; │ &nbsp; |── GoalItem.js &nbsp;&nbsp; # Individual goal display <br />
-│ &nbsp; │ &nbsp; │ &nbsp; |── Header.js &nbsp;&nbsp; # Navigation header <br />
-│ &nbsp; │ &nbsp; │ &nbsp;└── Spinner.js &nbsp;&nbsp; # Loading spinner <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── GoalForm.js &nbsp; # Goal creation form <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── GoalItem.js &nbsp; # Individual goal display <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── Header.js &nbsp; # Navigation header <br />
+│ &nbsp; │ &nbsp; │ &nbsp;└── Spinner.js &nbsp; # Loading spinner <br />
 │ &nbsp; │ &nbsp; |── features/ <br />
 │ &nbsp; │ &nbsp; │ &nbsp; |── auth/ <br />
-│ &nbsp; │ &nbsp; │ &nbsp; │ &nbsp;└── authService.js &nbsp;&nbsp; # Authentication API calls <br />
+│ &nbsp; │ &nbsp; │ &nbsp; │ &nbsp;└── authService.js &nbsp; # Authentication API calls <br />
 │ &nbsp; │ &nbsp; │ &nbsp;└── goals/ <br />
-│ &nbsp; │ &nbsp; │ &nbsp; | &nbsp;└── goalService.js &nbsp;&nbsp; # Goal API calls <br />
+│ &nbsp; │ &nbsp; │ &nbsp; | &nbsp;└── goalService.js &nbsp; # Goal API calls <br />
 │ &nbsp; │ &nbsp; |── pages/ <br />
-│ &nbsp; │ &nbsp; │ &nbsp; |── Dashboard.js &nbsp;&nbsp; # Main dashboard <br />
-│ &nbsp; │ &nbsp; │ &nbsp; |── Login.js &nbsp;&nbsp; # Login page <br />
-│ &nbsp; │ &nbsp; │ &nbsp;└── Register.js &nbsp;&nbsp; # Registration page <br />
-│ &nbsp; │ &nbsp; |── App.css &nbsp;&nbsp; # Global styles <br />
-│ &nbsp; │ &nbsp; |── App.js &nbsp;&nbsp; # Main app component <br />
-│ &nbsp; │ &nbsp;└── index.js &nbsp;&nbsp; # React entry point <br />
-└── package.json &nbsp;&nbsp; # Root package configuration <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── Dashboard.js &nbsp; # Main dashboard <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── Login.js &nbsp; # Login page <br />
+│ &nbsp; │ &nbsp; │ &nbsp;└── Register.js &nbsp; # Registration page <br />
+│ &nbsp; │ &nbsp; |── App.css &nbsp; # Global styles <br />
+│ &nbsp; │ &nbsp; |── App.js &nbsp; # Main app component <br />
+│ &nbsp; │ &nbsp;└── index.js &nbsp; # React entry point <br />
+└── package.json &nbsp; # Root package configuration <br />
 
 ## Installation & Setup
 
