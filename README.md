@@ -38,45 +38,45 @@ A full-stack MERN application for setting, tracking, and managing personal goals
 - Colors - Terminal output styling
 
 ## Project Structure
-goalsetter/
-├── backend/
-│   ├── config/
-│   │   └── db.js              # Database connection
-│   ├── controllers/
-│   │   ├── goalController.js  # Goal CRUD operations
-│   │   └── userController.js  # User authentication
-│   ├── middleware/
-│   │   ├── authMiddleware.js  # JWT protection
-│   │   └── errorMiddleware.js # Error handling
-│   ├── models/
-│   │   ├── goalModel.js       # Goal schema
-│   │   └── userModel.js       # User schema
-│   ├── routes/
-│   │   ├── GoalRoutes.js      # Goal API routes
-│   │   └── UserRoutes.js      # User API routes
-│   └── server.js              # Express server setup
-├── frontend/
-│   ├── public/
-│   │   └── index.html         # HTML template
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── GoalForm.js    # Goal creation form
-│   │   │   ├── GoalItem.js    # Individual goal display
-│   │   │   ├── Header.js      # Navigation header
-│   │   │   └── Spinner.js     # Loading spinner
-│   │   ├── features/
-│   │   │   ├── auth/
-│   │   │   │   └── authService.js  # Authentication API calls
-│   │   │   └── goals/
-│   │   │       └── goalService.js  # Goal API calls
-│   │   ├── pages/
-│   │   │   ├── Dashboard.js   # Main dashboard
-│   │   │   ├── Login.js       # Login page
-│   │   │   └── Register.js    # Registration page
-│   │   ├── App.css           # Global styles
-│   │   ├── App.js            # Main app component
-│   │   └── index.js          # React entry point
-└── package.json              # Root package configuration
+goalsetter/ <br />
+├── backend/ <br />
+│   ├── config/ <br />
+│   │   └── db.js              # Database connection <br />
+│   ├── controllers/ <br />
+│   │   ├── goalController.js  # Goal CRUD operations <br />
+│   │   └── userController.js  # User authentication <br />
+│   ├── middleware/ <br />
+│   │   ├── authMiddleware.js  # JWT protection <br />
+│   │   └── errorMiddleware.js # Error handling <br />
+│   ├── models/ <br />
+│   │   ├── goalModel.js       # Goal schema <br />
+│   │   └── userModel.js       # User schema <br />
+│   ├── routes/ <br />
+│   │   ├── GoalRoutes.js      # Goal API routes <br />
+│   │   └── UserRoutes.js      # User API routes <br />
+│   └── server.js              # Express server setup <br />
+├── frontend/ <br />
+│   ├── public/ <br />
+│   │   └── index.html         # HTML template <br />
+│   ├── src/ <br />
+│   │   ├── components/ <br />
+│   │   │   ├── GoalForm.js    # Goal creation form <br />
+│   │   │   ├── GoalItem.js    # Individual goal display <br />
+│   │   │   ├── Header.js      # Navigation header <br />
+│   │   │   └── Spinner.js     # Loading spinner <br />
+│   │   ├── features/ <br />
+│   │   │   ├── auth/ <br />
+│   │   │   │   └── authService.js  # Authentication API calls <br />
+│   │   │   └── goals/ <br />
+│   │   │       └── goalService.js  # Goal API calls <br />
+│   │   ├── pages/ <br />
+│   │   │   ├── Dashboard.js   # Main dashboard <br />
+│   │   │   ├── Login.js       # Login page <br />
+│   │   │   └── Register.js    # Registration page <br />
+│   │   ├── App.css           # Global styles <br />
+│   │   ├── App.js            # Main app component <br />
+│   │   └── index.js          # React entry point <br />
+└── package.json              # Root package configuration <br />
 
 ## Installation & Setup
 
@@ -199,6 +199,6 @@ npm start
 This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
+
 Vineet Panchal
-----------------------------------------------
 Built with ❤️ using the MERN stack
