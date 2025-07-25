@@ -75,8 +75,7 @@ goalsetter/ <br />
 │ &nbsp; │ &nbsp; │ &nbsp;└── Register.js    # Registration page <br />
 │ &nbsp; │ &nbsp; |── App.css           # Global styles <br />
 │ &nbsp; │ &nbsp; |── App.js            # Main app component <br />
-│ &nbsp; │ &nbsp;└── index.js          # React entry point <br />
-└── package.json              # Root package configuration <br />
+│ &nbsp; │ &nbsp;└── index.js          # React entry point <br />└── package.json              # Root package configuration <br />
 
 ## Installation & Setup
 
