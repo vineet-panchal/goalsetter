@@ -41,8 +41,8 @@ A full-stack MERN application for setting, tracking, and managing personal goals
 goalsetter/ <br />
 ├── backend/ <br />
 │ &nbsp; ├── config/ <br />
-│   │   └── db.js              # Database connection <br />
-│   ├── controllers/ <br />
+│ &nbsp; │ &nbsp; └── db.js              # Database connection <br />
+│ &nbsp; ├── controllers/ <br />
 │   │   ├── goalController.js  # Goal CRUD operations <br />
 │   │   └── userController.js  # User authentication <br />
 │   ├── middleware/ <br />
