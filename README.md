@@ -54,28 +54,28 @@ goalsetter/ <br />
 │ &nbsp; |── routes/ <br />
 │ &nbsp; │ &nbsp; |── GoalRoutes.js      # Goal API routes <br />
 │ &nbsp; │ &nbsp;└── UserRoutes.js      # User API routes <br />
-│ &nbsp; └── server.js              # Express server setup <br />
+│ &nbsp;└── server.js              # Express server setup <br />
 |── frontend/ <br />
 │ &nbsp; |── public/ <br />
-│ &nbsp; │ &nbsp; └── index.html         # HTML template <br />
+│ &nbsp; │ &nbsp;└── index.html         # HTML template <br />
 │ &nbsp; |── src/ <br />
 │ &nbsp; │ &nbsp; |── components/ <br />
 │ &nbsp; │ &nbsp; │ &nbsp; |── GoalForm.js    # Goal creation form <br />
 │ &nbsp; │ &nbsp; │ &nbsp; |── GoalItem.js    # Individual goal display <br />
 │ &nbsp; │ &nbsp; │ &nbsp; |── Header.js      # Navigation header <br />
-│ &nbsp; │ &nbsp; │ &nbsp; └── Spinner.js     # Loading spinner <br />
+│ &nbsp; │ &nbsp; │ &nbsp;└── Spinner.js     # Loading spinner <br />
 │ &nbsp; │ &nbsp; |── features/ <br />
 │ &nbsp; │ &nbsp; │ &nbsp; |── auth/ <br />
-│ &nbsp; │ &nbsp; │ &nbsp; │ &nbsp; └── authService.js  # Authentication API calls <br />
-│ &nbsp; │ &nbsp; │ &nbsp; └── goals/ <br />
-│ &nbsp; │ &nbsp; │ &nbsp; | &nbsp; └── goalService.js  # Goal API calls <br />
+│ &nbsp; │ &nbsp; │ &nbsp; │ &nbsp;└── authService.js  # Authentication API calls <br />
+│ &nbsp; │ &nbsp; │ &nbsp;└── goals/ <br />
+│ &nbsp; │ &nbsp; │ &nbsp; | &nbsp;└── goalService.js  # Goal API calls <br />
 │ &nbsp; │ &nbsp; |── pages/ <br />
 │ &nbsp; │ &nbsp; │ &nbsp; |── Dashboard.js   # Main dashboard <br />
 │ &nbsp; │ &nbsp; │ &nbsp; |── Login.js       # Login page <br />
-│ &nbsp; │ &nbsp; │ &nbsp; └── Register.js    # Registration page <br />
+│ &nbsp; │ &nbsp; │ &nbsp;└── Register.js    # Registration page <br />
 │ &nbsp; │ &nbsp; |── App.css           # Global styles <br />
 │ &nbsp; │ &nbsp; |── App.js            # Main app component <br />
-│ &nbsp; │ &nbsp; └── index.js          # React entry point <br />
+│ &nbsp; │ &nbsp;└── index.js          # React entry point <br />
 └── package.json              # Root package configuration <br />
 
 ## Installation & Setup
