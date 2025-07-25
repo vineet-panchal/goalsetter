@@ -42,40 +42,40 @@ goalsetter/ <br />
 |── backend/ <br />
 │ &nbsp; |── config/ <br />
 │ &nbsp; │ &nbsp; └── db.js              # Database connection <br />
-│ &nbsp; ├── controllers/ <br />
-│   │   ├── goalController.js  # Goal CRUD operations <br />
-│   │   └── userController.js  # User authentication <br />
-│   ├── middleware/ <br />
-│   │   ├── authMiddleware.js  # JWT protection <br />
-│   │   └── errorMiddleware.js # Error handling <br />
-│   ├── models/ <br />
-│   │   ├── goalModel.js       # Goal schema <br />
-│   │   └── userModel.js       # User schema <br />
-│   ├── routes/ <br />
-│   │   ├── GoalRoutes.js      # Goal API routes <br />
-│   │   └── UserRoutes.js      # User API routes <br />
-│   └── server.js              # Express server setup <br />
+│ &nbsp; |── controllers/ <br />
+│ &nbsp; │ &nbsp; |── goalController.js  # Goal CRUD operations <br />
+│ &nbsp; │ &nbsp; └── userController.js  # User authentication <br />
+│ &nbsp; |── middleware/ <br />
+│ &nbsp; │ &nbsp; |── authMiddleware.js  # JWT protection <br />
+│ &nbsp; │ &nbsp;  └── errorMiddleware.js # Error handling <br />
+│ &nbsp; |── models/ <br />
+│ &nbsp; │ &nbsp; |── goalModel.js       # Goal schema <br />
+│ &nbsp; │ &nbsp; └── userModel.js       # User schema <br />
+│ &nbsp; |── routes/ <br />
+│ &nbsp; │ &nbsp; |── GoalRoutes.js      # Goal API routes <br />
+│ &nbsp; │ &nbsp; └── UserRoutes.js      # User API routes <br />
+│ &nbsp; └── server.js              # Express server setup <br />
 ├── frontend/ <br />
-│   ├── public/ <br />
-│   │   └── index.html         # HTML template <br />
-│   ├── src/ <br />
-│   │   ├── components/ <br />
-│   │   │   ├── GoalForm.js    # Goal creation form <br />
-│   │   │   ├── GoalItem.js    # Individual goal display <br />
-│   │   │   ├── Header.js      # Navigation header <br />
-│   │   │   └── Spinner.js     # Loading spinner <br />
-│   │   ├── features/ <br />
-│   │   │   ├── auth/ <br />
-│   │   │   │   └── authService.js  # Authentication API calls <br />
-│   │   │   └── goals/ <br />
-│   │   │       └── goalService.js  # Goal API calls <br />
-│   │   ├── pages/ <br />
-│   │   │   ├── Dashboard.js   # Main dashboard <br />
-│   │   │   ├── Login.js       # Login page <br />
-│   │   │   └── Register.js    # Registration page <br />
-│   │   ├── App.css           # Global styles <br />
-│   │   ├── App.js            # Main app component <br />
-│   │   └── index.js          # React entry point <br />
+│ &nbsp; |── public/ <br />
+│ &nbsp; │ &nbsp; └── index.html         # HTML template <br />
+│ &nbsp; |── src/ <br />
+│ &nbsp; │ &nbsp; |── components/ <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── GoalForm.js    # Goal creation form <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── GoalItem.js    # Individual goal display <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── Header.js      # Navigation header <br />
+│ &nbsp; │ &nbsp; │ &nbsp; └── Spinner.js     # Loading spinner <br />
+│ &nbsp; │ &nbsp; |── features/ <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── auth/ <br />
+│ &nbsp; │ &nbsp; │ &nbsp; │ &nbsp; └── authService.js  # Authentication API calls <br />
+│ &nbsp; │ &nbsp; │ &nbsp; └── goals/ <br />
+│ &nbsp; │ &nbsp; │ &nbsp; | &nbsp; └── goalService.js  # Goal API calls <br />
+│ &nbsp; │ &nbsp; |── pages/ <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── Dashboard.js   # Main dashboard <br />
+│ &nbsp; │ &nbsp; │ &nbsp; |── Login.js       # Login page <br />
+│ &nbsp; │ &nbsp; │ &nbsp; └── Register.js    # Registration page <br />
+│ &nbsp; │ &nbsp; |── App.css           # Global styles <br />
+│ &nbsp; │ &nbsp; |── App.js            # Main app component <br />
+│ &nbsp; │ &nbsp; └── index.js          # React entry point <br />
 └── package.json              # Root package configuration <br />
 
 ## Installation & Setup
