@@ -41,21 +41,21 @@ A full-stack MERN application for setting, tracking, and managing personal goals
 goalsetter/ <br />
 |── backend/ <br />
 │ &nbsp; |── config/ <br />
-│ &nbsp; │ &nbsp; └── db.js              # Database connection <br />
+│ &nbsp; │ &nbsp;└── db.js              # Database connection <br />
 │ &nbsp; |── controllers/ <br />
 │ &nbsp; │ &nbsp; |── goalController.js  # Goal CRUD operations <br />
-│ &nbsp; │ &nbsp; └── userController.js  # User authentication <br />
+│ &nbsp; │ &nbsp;└── userController.js  # User authentication <br />
 │ &nbsp; |── middleware/ <br />
 │ &nbsp; │ &nbsp; |── authMiddleware.js  # JWT protection <br />
-│ &nbsp; │ &nbsp;  └── errorMiddleware.js # Error handling <br />
+│ &nbsp; │ &nbsp;└── errorMiddleware.js # Error handling <br />
 │ &nbsp; |── models/ <br />
 │ &nbsp; │ &nbsp; |── goalModel.js       # Goal schema <br />
-│ &nbsp; │ &nbsp; └── userModel.js       # User schema <br />
+│ &nbsp; │ &nbsp;└── userModel.js       # User schema <br />
 │ &nbsp; |── routes/ <br />
 │ &nbsp; │ &nbsp; |── GoalRoutes.js      # Goal API routes <br />
-│ &nbsp; │ &nbsp; └── UserRoutes.js      # User API routes <br />
+│ &nbsp; │ &nbsp;└── UserRoutes.js      # User API routes <br />
 │ &nbsp; └── server.js              # Express server setup <br />
-├── frontend/ <br />
+|── frontend/ <br />
 │ &nbsp; |── public/ <br />
 │ &nbsp; │ &nbsp; └── index.html         # HTML template <br />
 │ &nbsp; |── src/ <br />
